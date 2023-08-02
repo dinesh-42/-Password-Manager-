@@ -103,18 +103,36 @@ class App extends Component{
             />
             </div>
             <div className="input-holder">
-            <img src="https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png" 
+            <img src="https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png" 
             className="input-image" 
-            alt="username"
+            alt="website"
             /> 
             <input 
             type="text" 
             className="input-element" 
-            placeholder="Enter Username" 
-            onChange={this.listenUsername} 
-            value={username}
+            placeholder="Enter Website" 
+            onChange={this.listenWebsite} 
+            value={website}
             /> 
+            </div>
             <div className="input-holder">
+            <img src="https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png" 
+            className="input-image" 
+            alt="username"
+            />
+            <input 
+            type="text" 
+            className="input-element" 
+            placeholder="Enter Username" 
+            onChange={this.listenUsername}
+            value={username}
+            />
+            </div>
+
+
+
+
+          <div className="input-holder">
             <img src="https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png" 
             className="input-image" 
             alt="password"
@@ -127,6 +145,34 @@ class App extends Component{
             value={password}
             />
             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <button type="submit" className="add-btn">Add</button>
             </form>
             <img src="https://assets.ccbp.in/frontend/react-js/password-manager-lg-img.png"
